@@ -1,0 +1,48 @@
+GET http://localhost:3000/posts
+
+###
+
+GET http://localhost:3000/posts/652c5f859721f3bd5480e941
+
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "trial1",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis vel velit malesuada vehicula. Nam tempus interdum dui, vitae tincidunt metus. Sed vitae egestas mauris, non pretium felis. Vestibulum fermentum risus quis lorem vulputate consectetur. Nulla tortor purus, porttitor eu nunc a, elementum volutpat quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ut justo imperdiet, imperdiet neque non, molestie lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas fringilla blandit mattis. Fusce a consequat erat, ornare malesuada dui. Pellentesque viverra arcu eget sapien tristique, eu porttitor velit sagittis. Suspendisse congue risus justo, et molestie dolor blandit eget. Etiam laoreet quis sem non feugiat. Fusce ultricies velit fermentum magna venenatis sagittis.Vestibulum porttitor elit quis nibh condimentum porta. Phasellus nisl velit, eleifend id ipsum at, suscipit fringilla nisl. Sed eu sapien auctor, accumsan elit in, volutpat dui. Donec aliquam elementum felis sit amet mattis. Curabitur varius erat non blandit hendrerit." 
+}
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "trial2",
+    "content": "this is a trial2"
+}
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "trial3",
+    "content": "this is a trial3"
+}
+
+###
+PUT  http://localhost:3000/posts/65355a7853dd7cd5768d1463
+Content-Type: application/json
+
+{
+    "title": "trial4",
+    "content": "this is a trial4"
+}
+
+###
+DELETE http://localhost:3000/posts/652c2268371b177b1eeffb06
+
+
+###
+DELETE http://localhost:3000/posts
+
+
